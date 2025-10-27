@@ -52,7 +52,14 @@ Records sale transactions, including sale amount and date.Provides insights into
 
 **Sales**: Stores transaction details.
 
-# Relationships
+# E-R Diagram
+
+![image alt](https://github.com/Srivishnuu/Event-Ticketing-System-using-Sql/blob/fe9790a2842a0efcf8c3a1cda3e3f01b88ebce7d/ER-Diagram%20.jpg)
+
+
+
+
+# Problem Statement
 Q1.AGGREGATE - Total Number of Events
 ```sql
 SELECT COUNT(event_name) as Total_Events from Events;
